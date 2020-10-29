@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Contact Manager</title> 
+	<!-- required for mobile first-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--JQeury-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--Own Scripts-->
+	<script src="script/code.js"></script>
+	<link rel="stylesheet" href="style/custom.css" />	
+</head> 
+<body> 
+	<div class="container">
+		<div id="searchBar" class="row input-group mb-3 mt-3">
+			<input type="text" id="searchInput" placeholder="Locatie" class="form-control">
+			<div class="input-group-append">
+				<button class="btn btn-outline-secondary" type="button" id="searchBtn">Zoek</button>
+			</div>
+		</div>
+		<p>Nu</p>
+		<div id="weatherInfo" class="row">		
+		</div>
+		<p>Voorspellingen</p>
+		<div id="weatherForecast" class="row">
+		</div>		
+		<div id="extraInfo">	
+		</div>
+	</div>
+</body> 
+</html> 

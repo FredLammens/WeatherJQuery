@@ -1,0 +1,63 @@
+li {
+    list-style-type: none;
+}
+#extraInfo {
+    margin-bottom: 5%;
+}
+#weatherForecast .card:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+@media all and (max-width: 765px) {
+    /* CSS rules here for screens lower than 750px */
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+    #temp {
+        font-weight: bolder;
+        font-size: xxx-large;
+        text-align: left;
+    }
+    #minMax {
+        text-align: left;
+    }
+    #searchBar{
+       margin: auto;
+    }
+    .card {
+        margin: auto;
+    }
+    #imgContainer {
+        max-width: 128px;
+        max-height: 128px;
+    }
+    #tempForecast {
+        font-weight: bold;
+    }
+}
+@media all and (min-width: 765px) {
+    /* CSS rules here for screens above 750px */
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+    #imgContainer {
+        max-width: 128px;
+        max-height: 128px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #temp {
+        font-weight: bolder;
+        font-size: xxx-large;
+        text-align: right;
+    }
+    #tempForecast {
+        font-weight: bold;
+    }
+    #minMax {
+        text-align: right;
+    }
+}
