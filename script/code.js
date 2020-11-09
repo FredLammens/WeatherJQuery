@@ -23,7 +23,7 @@ const succesPosition = (position) => {
 }
 const start = () => {
     $("#searchBtn").on("click",search);
-    if(localStorage.getItem("apiKey"))
+    if(localStorage.getItem("apiKey") == null)
     {
         apiKey = "cc986dccbe514070a3d03303202810";
         localStorage.setItem("apiKey",JSON.stringify(apiKey));
